@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Presentation Slides test with reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Two stylesheets for the Appearance plugin -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+		<link rel="stylesheet" href="plugin/appearance/appearance.css">
+
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+
+			<section data-background-image="https://fitfoodiefinds.com/wp-content/uploads/2019/02/muffin-2-sq.jpg">
+				<span style="display:block; padding:5px; background:rgba(0, 0, 0, 0.5);">
+				<h2>Welcome to the wonderful world of muffins!</h2>
+				</span>
+				<h4 style="padding:3px; background-color:#000000;">A reveal.js HTML Presentation framework test</h4>
+			</section>
+
+			<section>
+
+					<section  data-background-iframe="https://www.bakedbyanintrovert.com/muffins/" data-background-interactive>
+						<span style="display:block; padding:5px; background:rgba(0, 0, 0, 0.8);">
+						<h2 style="color:#ffffff;">Let's look at some Muffin-centric websites</h2>
+						<h4> You can load websites in the background of a slide and interact with it </h4>
+						</span>
+					</section>
+					<section data-background-iframe="https://myfavoritemuffin.com/" data-background-interactive>
+						<span style="display:block; padding:5px; background:rgba(0, 0, 0, 0.8);">
+							<h2 style="color:#ffffff;">And another website - looks tasty</h2>
+						</span>
+					</section>
+					<section data-background-iframe="https://en.wikipedia.org/wiki/Muffin" data-background-interactive>
+						<span style="display:block; padding:5px; background:rgba(0, 0, 0, 0.8);">
+							<h2 style="color:#ffffff;">And a wiki</h2>
+						</span>
+					</section>
+			</section>
+
+			<section>
+				<h1>What's the best kind of muffin</h1>
+				You can animate bullets in many different ways:
+				<ul>
+					<li class="animated bounceInLeft"><a href="https://woodward-library.github.io/slidestest/#/1">I can't decide back to websites</a></li>
+					<li class="animated bounceInLeft">Blueberry</li>
+					<li class="animated bounceInLeft">Cran-Razz</li>
+					<li class="animated zoomOutLeft">Choc Chip</li>
+					<li class="animated zoomOutUp">Carrot</li>
+					<li class="animated slideOutDown">Plain</li>
+					<li class="animated shrinkInBlur">Lemon</li>
+					<li class="animated zoomInUp">Pickle</li>
+
+				</ul>
+
+
+			</section>
+
+			<section>
+				<h2>You can embed an iFrame</h2>
+				<h5>This can contain a website or in this case a YouTube video</h5>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/SZNLVpAC0NU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/menu/menu.js"></script>
+		<script src="plugin/helpbutton/helpbutton.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/appearance/appearance.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				progress: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu,HelpButton, RevealZoom, Appearance],
+
+
+
+			});
+		</script>
+	</body>
+</html>
